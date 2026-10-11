@@ -1,6 +1,9 @@
 # 🍽️ Recipe Collection App | Level 1 - Day 11 Internship Task
 
-A fully responsive, dynamic Recipe Collection web application built as part of the Web Development Internship Track (Level 1 - Day 11). 
+A fully responsive, dynamic Recipe Collection web application built as part of the Web Development Internship Track
+
+🔗 **Live Demo:** [https://vishal-maddheshiya.github.io/recipe-card-page/](https://vishal-maddheshiya.github.io/recipe-card-page/)  
+💻 **GitHub Repository:** [https://github.com/VISHAL-MADDHESHIYA/recipe-card-page/](https://github.com/VISHAL-MADDHESHIYA/recipe-card-page/)
 
 ## 📖 Project Overview
 The objective of this task was to build a single recipe card page. However, this project was taken a step further (Advanced Level) to create a **Dynamic Recipe Application**. Users can browse a collection of 15 different recipes laid out in a responsive grid. Clicking on "View Recipe" opens a beautifully designed modal (popup) displaying the full ingredients list and step-by-step preparation process without reloading the page.
