@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">🍳 RecipeHub</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Discover Amazing Recipes</h1>
+        <p>Click on any recipe to view ingredients and steps.</p>
+    </section>
+
+       <!-- Recipe Section (Slider ki jagah Grid) -->
+    <section id="recipes" class="recipes-section">
+        <h2 class="section-title">Popular Recipes</h2>
+        
+        <!-- Grid Container: JS isme cards bharega -->
+        <div class="recipe-grid" id="recipeGrid"></div>
+    </section>
+
+    <div class="modal-overlay" id="recipeModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <div id="modalBody" class="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 RecipeHub.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
